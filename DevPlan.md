@@ -3,7 +3,7 @@
 ## Project setup
   * [x] React (TypeScript)
   * [x] Router
-  * [x] vite
+  * [x] vite bundler
 
   * [x] Linter
   * [x] Jest & RTL
@@ -15,6 +15,6 @@
 
 ## CI
   * [x] husky hooks (lint, typecheck, test)
-  * [ ] Github CI workflow
+  * [x] Github CI workflow
   * [ ] Renovate
 
