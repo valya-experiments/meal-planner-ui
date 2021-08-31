@@ -6,7 +6,7 @@
   * [x] vite
 
   * [x] Linter
-  * [ ] Jest & RTL
+  * [x] Jest & RTL
 
   * [ ] TailwindCSS
   * [ ] MSW
