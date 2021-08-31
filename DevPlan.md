@@ -16,5 +16,5 @@
 ## CI
   * [x] husky hooks (lint, typecheck, test)
   * [x] Github CI workflow
-  * [ ] Renovate
+  * [x] Renovate
 
