@@ -1,8 +1,8 @@
-import * as React from "react";
+import React from "react";
 import { MealView } from "./Meal";
 
 export default {
-  title: "Own / Meal page",
+  title: "Test / MealView",
   component: MealView,
 };
 

@@ -9,7 +9,7 @@
   * [x] Jest & RTL
 
   * [x] TailwindCSS
-  * [ ] Storybook
+  * [x] Storybook
 
   * [ ] MSW
   * [ ] ReactQuery
