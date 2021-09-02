@@ -44,3 +44,15 @@ jobs:
 
       - name: Run unit tests
         run: yarn lint
+
+  storybook:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build storybook
+        run: yarn storybook:build
