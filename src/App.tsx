@@ -9,6 +9,7 @@ import {
 import { Error404View } from "./views/404";
 import { HomeView } from "./views/Home";
 import { MealView } from "./views/Meal";
+import "./tailwind.imports.css";
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const App = () => {

@@ -8,9 +8,11 @@
   * [x] Linter
   * [x] Jest & RTL
 
-  * [ ] TailwindCSS
+  * [x] TailwindCSS
   * [ ] MSW
   * [ ] ReactQuery
+
+  * [ ] Storybook
 
 
 ## CI
