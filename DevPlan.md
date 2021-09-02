@@ -9,11 +9,10 @@
   * [x] Jest & RTL
 
   * [x] TailwindCSS
-  * [ ] MSW
-  * [ ] ReactQuery
-
   * [ ] Storybook
 
+  * [ ] MSW
+  * [ ] ReactQuery
 
 ## CI
   * [x] husky hooks (lint, typecheck, test)
