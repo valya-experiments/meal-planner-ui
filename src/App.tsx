@@ -10,42 +10,37 @@ import { Error404View } from "./views/404";
 import { HomeView } from "./views/Home";
 import { MealView } from "./views/Meal";
 import "./tailwind.imports.css";
-import { QueryClient, QueryClientProvider } from "react-query";
-
-const queryClient = new QueryClient();
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const App = () => {
   return (
-    <QueryClientProvider client={queryClient}>
-      <Router>
-        <div>
-          <nav>
-            <ul>
-              <li>
-                <NavLink to="/">Home</NavLink>
-              </li>
-              <li>
-                <NavLink to="/meal">Meal</NavLink>
-              </li>
-            </ul>
-          </nav>
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/meal">Meal</NavLink>
+            </li>
+          </ul>
+        </nav>
 
-          <Switch>
-            <Route exact strict path="/meal">
-              <MealView />
-            </Route>
+        <Switch>
+          <Route exact strict path="/meal">
+            <MealView />
+          </Route>
 
-            <Route exact strict path="/">
-              <HomeView />
-            </Route>
+          <Route exact strict path="/">
+            <HomeView />
+          </Route>
 
-            <Route path="*">
-              <Error404View />
-            </Route>
-          </Switch>
-        </div>
-      </Router>
-    </QueryClientProvider>
+          <Route path="*">
+            <Error404View />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 };
