@@ -11,8 +11,8 @@
   * [x] TailwindCSS
   * [x] Storybook
 
-  * [ ] MSW
-  * [ ] ReactQuery
+  * [x] MSW
+  * [x] ReactQuery
 
 ## CI
   * [x] husky hooks (lint, typecheck, test)
