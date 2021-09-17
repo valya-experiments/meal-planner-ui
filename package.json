@@ -39,11 +39,13 @@
     "babel-loader": "8.2.2",
     "eslint": "7.32.0",
     "jest": "27.2.0",
+    "msw": "^0.35.0",
     "postcss": "8.3.6",
     "tailwindcss": "2.2.15",
     "ts-jest": "27.0.5",
     "typescript": "4.4.3",
-    "vite": "2.5.8"
+    "vite": "2.5.8",
+    "whatwg-fetch": "^3.6.2"
   },
   "resolutions": {
     "@types/react": "^17.0.21"

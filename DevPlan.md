@@ -11,7 +11,7 @@
   * [x] TailwindCSS
   * [x] Storybook
 
-  * [ ] MSW
+  * [x] MSW
   * [ ] ReactQuery
 
 ## CI
