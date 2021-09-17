@@ -12,7 +12,7 @@
   * [x] Storybook
 
   * [x] MSW
-  * [ ] ReactQuery
+  * [x] ReactQuery
 
 ## CI
   * [x] husky hooks (lint, typecheck, test)

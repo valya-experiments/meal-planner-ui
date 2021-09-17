@@ -1,16 +1,9 @@
 import React from "react";
-import { QueryClient, QueryClientProvider } from "react-query";
 import { render, screen } from "utils/tests";
 import { MealView } from "./Meal";
 
 beforeEach(() => {
-  const queryClient = new QueryClient();
-
-  render(
-    <QueryClientProvider client={queryClient}>
-      <MealView />
-    </QueryClientProvider>
-  );
+  render(<MealView />);
 });
 
 test("displays a list of meals fetched from API", async () => {
