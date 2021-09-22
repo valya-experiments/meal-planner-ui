@@ -8,12 +8,27 @@
     {
       "matchDepTypes": ["devDependencies"],
       "matchPackagePatterns": ["lint", "prettier", "testing-library", "types"],
+      "groupName": "devDependencies",
       "automerge": true
     },
     {
       "matchUpdateTypes": ["minor", "patch"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true
+    },
+    {
+      "matchPackagePatterns": ["eslint"],
+      "groupName": "eslint",
+      "schedule": ["before 2am on monday"],
+      "automerge": true,
+      "automergeType": "branch"
+    },
+    {
+      "matchPackagePatterns": ["@types"],
+      "groupName": "types",
+      "schedule": ["before 2am on monday"],
+      "automerge": true,
+      "automergeType": "branch"
     }
   ]
 }
