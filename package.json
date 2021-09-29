@@ -9,7 +9,7 @@
     "lint": "eslint ./src --ext .tsx",
     "typecheck": "tsc --noEmit",
     "test": "jest",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006 -s .storybook/public",
     "storybook:build": "build-storybook"
   },
   "dependencies": {
@@ -52,7 +52,7 @@
     "@types/react": "17.0.24"
   },
   "msw": {
-    "workerDirectory": "public"
+    "workerDirectory": ".storybook/public"
   },
   "volta": {
     "node": "14.17.6",

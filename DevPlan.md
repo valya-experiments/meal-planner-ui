@@ -19,3 +19,12 @@
   * [x] Github CI workflow
   * [x] Renovate
 
+
+## CRUD UI
+  * [x] Get all meals
+  * [ ] Create new meal
+  * [ ] Edit a meal
+  * [ ] Delete a meal
+
+## Deployment
+  * [ ] Dockerfile

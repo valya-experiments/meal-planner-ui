@@ -6,6 +6,4 @@ export default {
   component: MealView,
 };
 
-export const base = () => {
-  return <MealView />;
-};
+export const base = () => <MealView />;

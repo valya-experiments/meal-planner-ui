@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 
 import { Error404View } from "./views/404";
-import { HomeView } from "./views/Home";
 import { MealView } from "./views/Meal";
 import "./tailwind.imports.css";
 
@@ -30,10 +29,6 @@ export const App = () => {
         <Switch>
           <Route exact strict path="/meal">
             <MealView />
-          </Route>
-
-          <Route exact strict path="/">
-            <HomeView />
           </Route>
 
           <Route path="*">
