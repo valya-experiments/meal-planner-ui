@@ -29,7 +29,7 @@
     "@testing-library/react": "12.1.5",
     "@testing-library/user-event": "13.5.0",
     "@types/jest": "27.4.1",
-    "@types/react": "17.0.44",
+    "@types/react": "18.0.14",
     "@types/react-dom": "18.0.1",
     "@types/react-router": "5.1.18",
     "@types/react-router-dom": "5.3.3",
@@ -52,7 +52,7 @@
     "whatwg-fetch": "3.6.2"
   },
   "resolutions": {
-    "@types/react": "17.0.44"
+    "@types/react": "18.0.14"
   },
   "msw": {
     "workerDirectory": ".storybook/public"
